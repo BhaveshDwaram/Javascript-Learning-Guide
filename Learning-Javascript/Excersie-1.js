@@ -1,7 +1,8 @@
 //Excerise 1 --> Guess The Number
 
 const prompt=require('prompt-sync')();
-let rand_num=Math.floor((Math.random()*100)+1);
+let rand_num=Math.floor((Math.random()*100)+1);// it will give whole number b/w 1 and 100
+// if we dont add 1 then it gives random number between b/w 0 and 100
 console.log(rand_num);
 let guess,count=0;
 do{
