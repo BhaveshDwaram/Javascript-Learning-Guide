@@ -8,7 +8,7 @@ console.log("Upper case : "+fruit.toUpperCase());
 //.toLowerCase() prints the lower case version of string
 console.log("Lower case : "+fruit.toLowerCase());
 
-//,slice for slicing of string
+//.slice for slicing of string
 console.log(fruit.slice(2,5));// include from 2 to 4 . 5 not included
 console.log(fruit.slice(2));// include from 2 to end . 
 

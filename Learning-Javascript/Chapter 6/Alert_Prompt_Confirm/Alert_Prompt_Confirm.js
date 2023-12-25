@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Alert_Prompt_Confirm</title>
-    </head>
-    <body>
-        Hello World
-        <script type="text/javascript">
-            alert("Enter a Number!");//used to invoke a mini window with a msg
+alert("Enter a Number!");//used to invoke a mini window with a msg
             let a=prompt("Enter here","578")//used to take input as a string
             //second argument acts as default value
             document.write(a);
@@ -21,7 +12,3 @@
             else{
                 document.write("Please allow me to write ");
             }
-        </script>
-    
-    </body>
-</html>
